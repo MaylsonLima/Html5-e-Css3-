@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+    a {
+      color: #002FFF;
+      font-family: monospace;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #001A8F;
+      text-decoration: underline;
+    }
+    a:active {
+      text-decoration: underline;
+    }
+    a::before{
+      content: '➡️';
+    }
+    a::after{
+      content: '⬅️';
+    }
+    
+    .especial {
+      background-color: #D1D9FF;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+    <li><a href="https://www.youtube.com/" class="especial">youtube.com</a></li>
+</body>
+</html>

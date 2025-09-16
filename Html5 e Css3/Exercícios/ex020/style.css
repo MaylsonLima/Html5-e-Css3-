@@ -1,0 +1,36 @@
+body {
+      background-image: linear-gradient(#E5ACFF,#856096 80%);
+      background-attachment: fixed;
+      font-family: monospace;
+      font-size: 22px;
+     }
+
+h1 {
+      color: #4D1FFF;
+}
+
+h2 {
+    color:#8363FF;
+}
+
+p {
+    color: #FFBD66
+}
+
+#principal {
+    text-align: center;
+}
+
+.basico {
+    color: #66FF00;
+}
+.medio {
+    color:#FFFB00;
+}
+.avancado {
+    color: #FF0000;
+}
+.destaque {
+    background-color: #FF000091;
+}
+

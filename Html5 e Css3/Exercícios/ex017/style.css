@@ -1,0 +1,31 @@
+*{
+  font-size: 17px;
+}
+body {
+  background-image: linear-gradient(#FF9594,#F4A09F);
+  background-attachment: fixed;
+}
+img {
+  width: 200px;
+  height: 134;
+}
+main {
+  background-color: white;
+  width: 300px; 
+  margin: auto;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #A25857;
+}
+h1 {
+  font-size: 22px;
+  color:#94C9FF;
+  text-align: center;
+}
+h2 {
+  font-size: 19px;
+  color: #94FFCA;
+}
+h3 {
+  color: #94FFCA;
+}

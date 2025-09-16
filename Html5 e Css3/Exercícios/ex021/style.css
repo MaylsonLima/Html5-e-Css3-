@@ -1,0 +1,24 @@
+div > p {
+  display: none;
+}
+div:active > p{
+  display: block;
+  color: white;
+  background-color:#F500FF;
+}
+div:active {
+  color: #FF0000;
+}
+
+h1 > p {
+  display: none;
+}
+
+h1:active > p {
+  color:#FFBD00;
+  display: block;
+  background-color: #FF9191;
+}
+h1:active {
+  color: #0046FF;
+}

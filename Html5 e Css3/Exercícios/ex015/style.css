@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+   body {
+        background-color: skyblue ;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif
+      }
+      h1 {
+        color: yellow;
+      }
+      h2 {
+        color: yellowgreen;
+      }
+      ul {
+        color: lightyellow;
+      }
+      li {
+        color: lightgoldenrodyellow;
+      }
+      hr {
+        color: skyblue;
+      }
+      h3 {
+        color: greenyellow;
+      } 
+      p {
+        text-align: justify-content;
+      }
