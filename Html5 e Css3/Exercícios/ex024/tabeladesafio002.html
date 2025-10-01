@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th {
+        border: 1px solid #000000;
+        background-color: #696969;
+        color: #FFFFFF;
+        padding: 5px;
+        width: 500px;
+      }
+      td {
+        border: 1px solid #000000;
+        padding: 5px;
+      }
+      .exatas {
+        background-color: #FFFFFF;
+        color: #000000;
+      }
+    </style>
+</head>
+<body>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Área</th>
+          <th scope="col">Disciplina</th>
+          <th scope="col">Nota 1</th>
+          <th scope="col">Nota 2</th>
+          <th scope="col">Média</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <th class="exatas" rowspan="3" scope="rowgroup">Exatas</th>
+        <td>Matemática</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Biologia</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <th colspan="4" scope="row">Médias exatas</th>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <th class="exatas" rowspan="2" scope="rowgroup">Humanas</th>
+          <td>História</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Geografia</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+      </tbody>
+      
+    </table>
+</body>
+</html>
